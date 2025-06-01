@@ -790,7 +790,7 @@
                         </li>
                         <li>
                             <span class="icon">🔗</span>
-                            <span>linkedin.com/in/ryanleis</span>
+                            <a href="https://linkedin.com/in/ryanleis" target="_blank">linkedin.com/in/ryanleis</a>
                         </li>
                     </ul>
                 </div>
@@ -845,8 +845,8 @@
         const themeToggle = document.getElementById('themeToggle');
         const body = document.body;
         
-        // Check for saved theme preference or default to light mode
-        const currentTheme = localStorage.getItem('theme') || 'light';
+        // Check for saved theme preference or default to dark mode
+        const currentTheme = localStorage.getItem('theme') || 'dark';
         body.setAttribute('data-theme', currentTheme);
         
         // Theme toggle event listener
