@@ -232,12 +232,24 @@
         /* About Section */
         .about-content {
             display: flex;
-            gap: 2rem;
-            align-items: center;
+            justify-content: center;
+            max-width: 800px;
+            margin: 0 auto;
         }
 
         .about-text {
-            flex: 2;
+            flex: 1;
+            line-height: 1.8;
+        }
+
+        .about-text p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+            color: var(--text-color);
+        }
+
+        .about-text p:last-child {
+            margin-bottom: 0;
         }
 
         .about-image {
@@ -609,9 +621,6 @@
                     <p>Quickly progressing to using floppy discs to play games like Wolfenstein 3D, installing Windows 3.1, chatting to friends on ICQ and downloading music on Napster (I mean... no I didn't) 🤣.</p>
                     <p>Fast forward many many years and I have worked with various technologies and frameworks to deliver successful cutting edge solutions to customer problems.</p>
                     <p>When I'm not in the trenches kicking goals with customers, you can find me hanging with (getting beaten up by) my 2 beautiful daughters, cheering at any live sporting event 🏈, outside in nature 🌴, surfing 🏄, drinking delicious coffee ☕️, craft beer 🍺, travelling and experimenting with new recipes in the kitchen.</p>
-                </div>
-                <div class="about-image">
-                    <img src="https://via.placeholder.com/400x300" alt="About Me">
                 </div>
             </div>
         </div>
